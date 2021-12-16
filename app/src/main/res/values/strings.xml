@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">COINNEWSまとめ</string>
+    <string name="app_name">CramSchoolInfo</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">COINNEWSまとめ</string>
+    <string name="nav_header_title">CramSchoolInfo</string>
     <string name="nav_header_subtitle">Powered By Yamato Creation</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">設定</string>

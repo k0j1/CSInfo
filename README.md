@@ -3,13 +3,13 @@
 ANDROIDアプリとして公開中  
 
 
-<img alt='GooglePlay' src='https://github.com/k0j1/VCNews/blob/master/GooglePlayImage.png' width="640px"/>
+<img alt='GooglePlay' src='https://github.com/k0j1/CSInfo/blob/master/GooglePlayImage.png' width="640px"/>
 
 ## Google Play
 
-https://play.google.com/store/apps/details?id=com.takaharabooks.app.vcnews
+https://play.google.com/store/apps/details?id=com.takaharabooks.app.csinfo
 
-<a href='https://play.google.com/store/apps/details?id=com.takaharabooks.app.vcnews&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Google Play で手に入れよう' src='https://play.google.com/intl/ja/badges/static/images/badges/ja_badge_web_generic.png' width="160px"/></a>
+<a href='https://play.google.com/store/apps/details?id=com.takaharabooks.app.csinfo&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Google Play で手に入れよう' src='https://play.google.com/intl/ja/badges/static/images/badges/ja_badge_web_generic.png' width="160px"/></a>
 
   
   

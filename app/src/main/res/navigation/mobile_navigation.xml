@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.takaharabooks.app.vcnews.ui.home.HomeFragmentMulti"
+        android:name="com.takaharabooks.app.csinfo.ui.home.HomeFragmentMulti"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home_multi" >
         <action
@@ -26,24 +26,24 @@
 
     <fragment
         android:id="@+id/nav_bookmark"
-        android:name="com.takaharabooks.app.vcnews.ui.bookmark.BookmarkFragment"
+        android:name="com.takaharabooks.app.csinfo.ui.bookmark.BookmarkFragment"
         android:label="@string/menu_bookmark"
         tools:layout="@layout/fragment_bookmark" />
 
     <fragment
         android:id="@+id/nav_history"
-        android:name="com.takaharabooks.app.vcnews.ui.history.HistoryFragment"
+        android:name="com.takaharabooks.app.csinfo.ui.history.HistoryFragment"
         android:label="@string/menu_history"
         tools:layout="@layout/fragment_history" />
 
     <fragment
         android:id="@+id/nav_setting"
-        android:name="com.takaharabooks.app.vcnews.ui.setting.SettingFragment"
+        android:name="com.takaharabooks.app.csinfo.ui.setting.SettingFragment"
         android:label="@string/menu_setting" />
 
     <fragment
         android:id="@+id/nav_about_page"
-        android:name="com.takaharabooks.app.vcnews.ui.about.AboutPageFragment"
+        android:name="com.takaharabooks.app.csinfo.ui.about.AboutPageFragment"
         android:label="@string/menu_about_page" />
 
 </navigation>

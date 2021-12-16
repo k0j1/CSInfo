@@ -23,19 +23,6 @@
             android:defaultValue="@string/settings_thema_default" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="通貨設定">
-        <!-- スイッチでON/OFF切り替えを行うPreference -->
-        <SwitchPreference
-            android:defaultValue="true"
-            android:key="setting.currency.0001"
-            android:title="@string/setting_currency0001" />
-        <SwitchPreference
-            android:defaultValue="true"
-            android:key="setting.currency.0002"
-            android:title="@string/setting_currency0002" />
-
-    </PreferenceCategory>
-
     <PreferenceCategory android:title="RSS取得サイト">
         <!-- スイッチでON/OFF切り替えを行うPreference -->
         <SwitchPreference
@@ -43,46 +30,6 @@
             android:key="setting.rss_site2.0001"
             android:summary="@string/rss_site_url0001"
             android:title="@string/rss_site_name0001" />
-        <SwitchPreference
-            android:defaultValue="true"
-            android:key="setting.rss_site2.0002"
-            android:summary="@string/rss_site_url0002"
-            android:title="@string/rss_site_name0002" />
-        <SwitchPreference
-            android:defaultValue="false"
-            android:key="setting.rss_site2.0009"
-            android:summary="@string/rss_site_url0009"
-            android:title="@string/rss_site_name0009" />
-        <SwitchPreference
-            android:defaultValue="false"
-            android:key="setting.rss_site2.0008"
-            android:summary="@string/rss_site_url0008"
-            android:title="@string/rss_site_name0008" />
-        <SwitchPreference
-            android:defaultValue="false"
-            android:key="setting.rss_site2.0003"
-            android:summary="@string/rss_site_url0003"
-            android:title="@string/rss_site_name0003" />
-        <SwitchPreference
-            android:defaultValue="false"
-            android:key="setting.rss_site2.0004"
-            android:summary="@string/rss_site_url0004"
-            android:title="@string/rss_site_name0004" />
-        <SwitchPreference
-            android:defaultValue="false"
-            android:key="setting.rss_site2.0005"
-            android:summary="@string/rss_site_url0005"
-            android:title="@string/rss_site_name0005" />
-        <SwitchPreference
-            android:defaultValue="false"
-            android:key="setting.rss_site2.0006"
-            android:summary="@string/rss_site_url0006"
-            android:title="@string/rss_site_name0006" />
-        <SwitchPreference
-            android:defaultValue="false"
-            android:key="setting.rss_site2.0007"
-            android:summary="@string/rss_site_url0007"
-            android:title="@string/rss_site_name0007" />
     </PreferenceCategory>
 
 
