@@ -209,6 +209,16 @@ public class RssItemParserTask extends AsyncTask<ArrayList<String>, Integer, Rss
                                     }
                                     currentItem.setImageURL(strLink);
                                     break;
+                                case "encoded":
+                                    String strContent = parser.nextText();
+                                    int nFindIndex = strContent.indexOf("<img");
+                                    if(0 <= nFindIndex)
+                                    {
+                                        String strImgText = strContent.substring(nFindIndex,strContent.indexOf(">", nFindIndex)+1);
+                                        nFindIndex = strImgText.indexOf("src=\"") + 5;
+                                        strLink = strImgText.substring(nFindIndex, strImgText.indexOf("\"",nFindIndex));
+                                        currentItem.setImageURL(strLink);
+                                    }
                             }
                         }
                         break;
