@@ -71,6 +71,19 @@ public class ListViewFunc
 
         final SharedPreferences mPrefs = PreferenceManager.getDefaultSharedPreferences(mActivity);
 
+        // *** 固定表示用データ入れ替え
+        int nSize = items.size();
+        for(int nIndex=0; nIndex<nSize; nIndex++)
+        {
+            RssItem item = items.get(nIndex);
+            if(item.getLink().toString().contains("12531050.html"))
+            {
+                items.remove(nIndex);
+                items.add(0, item);
+                break;
+            }
+        }
+
         RssList.removeAllViewsInLayout();
         RssList.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {

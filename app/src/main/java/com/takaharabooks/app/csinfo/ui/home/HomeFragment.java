@@ -68,10 +68,11 @@ public class HomeFragment extends Fragment {
     {
         // mSearchItemがセットされている場合は表示リストを絞り込み
         List<RssItem> dispItems;
-        String strSiteName = mSearchItem.getSiteName().toString();
-        String strCategory = mSearchItem.getCategory().toString();
-        if(mSearchItem != null && !strSiteName.equals("すべて"))
+        if(mSearchItem != null && !mSearchItem.getSiteName().equals("すべて"))
         {
+            String strSiteName = mSearchItem.getSiteName().toString();
+            String strCategory = mSearchItem.getCategory().toString();
+
             dispItems = new ArrayList<>();
             // サイト名が空でなければ該当サイトのみのリスト作成
             if(!strSiteName.isEmpty())

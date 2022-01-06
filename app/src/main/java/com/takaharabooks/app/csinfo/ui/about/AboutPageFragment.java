@@ -55,7 +55,7 @@ public class AboutPageFragment extends Fragment {
                 //.addItem(elemSeparator)
                 .addItem(elemK0j1)
                 .addEmail("k0j123t@gmail.com", "Email")
-                .addWebsite("https://www.takahara-books.com/Android/", "WebSite")
+                .addWebsite("https://www.takahara-books.com/", "WebSite")
                 .addGitHub("k0j1", "Github")
                 .addTwitter("k0j1_t", "Twitter")
                 .addItem(getCopyRightsElement())
