@@ -7,7 +7,7 @@
         <item>@string/rss_site_url0001</item>
     </string-array>
 
-    <string name="rss_site_name0001">【YamatoCreation】</string>
+    <string name="rss_site_name0001">【柏の塾情報ナビ】</string>
 
     <!-- RSSサイト名 -->
     <string-array name="rss_site_name">
